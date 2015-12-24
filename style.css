@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Mountains+of+Christmas:700');
+
+body {
+    background-color: green;
+}
+
+td {
+	color: #FF0033;
+	font-family: 'Mountains of Christmas', cursive;
+	text-align: center;
+	font-size: 20;
+	text-shadow: 1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+
+#tzA3 {
+/* title */
+	font-size: 40;
+	color: white;
+}
+
+#tzA14 {
+	/* sub titles */
+	font-size: 35;
+	color: yellow;
+}
+
+#tzA15 {
+	/* sub titles */
+	font-size: 35;
+	color: yellow;
+}
+
+#tzA16 {
+	/* sub titles */
+	font-size: 35;
+	color: yellow;
+}
+
+#tzA17 {
+	/* sub titles */
+	font-size: 35;
+	color: yellow;
+}
+
+#tzA18 {
+	/* sub titles */
+	font-size: 35;
+	color: yellow;
+}
