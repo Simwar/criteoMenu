@@ -1,0 +1,26 @@
+<html>
+<meta http-equiv="refresh" content="60">
+  <head>
+    <title>Get Menu Page</title>
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+$.ajaxSetup({
+    scriptCharset: "utf-8", //or "ISO-8859-1"
+    contentType: "application/json; charset=utf-8"
+});
+
+$.getJSON('http://whateverorigin.org/get?url=' + 
+    encodeURIComponent('https://32blanche.lecointreparis.com/LP') + '&callback=?',
+    function (data) {
+        var elements = $(data.contents);
+        var menu = $('.pos20', elements)[0];
+        $("#viewer").html(menu)
+        $("#viewer img").remove();
+});
+    </script>
+    <div id="viewer">
+    </div>
+  </body>
+</html>
