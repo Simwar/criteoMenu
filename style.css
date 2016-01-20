@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Mountains+of+Christmas:700');
+@import url('https://fonts.googleapis.com/css?family=Josefin+sans');
 
 body {
-    background-color: green;
+    background-color: white;
 }
 
 td {
-	color: red;
-	font-family: 'Mountains of Christmas', cursive;
+	color: orange;
+	font-family: 'Josefin Sans', sans-serif;
 	text-align: center;
 	font-size: 25;
 	text-shadow: 1px 1px 0 #000,
@@ -17,22 +17,22 @@ td {
     0px -1px 0 #000,
     -1px 0px 0 #000,
     1px 0px 0 #000,
-    2px 2px 0 #000,
-    -2px 2px 0 #000,
-    2px -2px 0 #000,
-    -2px -2px 0 #000,
-    0px 2px 0 #000,
-    0px -2px 0 #000,
-    -2px 0px 0 #000,
-    2px 0px 0 #000,
-    1px 2px 0 #000,
-    -1px 2px 0 #000,
-    1px -2px 0 #000,
-    -1px -2px 0 #000,
-    2px 1px 0 #000,
-    -2px 1px 0 #000,
-    2px -1px 0 #000,
-    -2px -1px 0 #000;
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
 }
 
 #tzA3 {
@@ -44,35 +44,35 @@ td {
 #tzA14 {
 	/* sub titles */
 	font-size: 35;
-	color: yellow;
+	color: grey;
 }
 
 #tzA15 {
 	/* sub titles */
 	font-size: 35;
-	color: yellow;
+	color: grey;
 }
 
 #tzA16 {
 	/* sub titles */
 	font-size: 35;
-	color: yellow;
+	color: grey;
 }
 
 #tzA17 {
 	/* sub titles */
 	font-size: 35;
-	color: yellow;
+	color: grey;
 }
 
 #tzA18 {
 	/* sub titles */
 	font-size: 35;
-	color: yellow;
+	color: grey;
 }
 
 #tzA23 {
     /* sub titles */
     font-size: 35;
-    color: yellow;
+    color: grey;
 }
