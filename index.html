@@ -16,7 +16,7 @@ $.getJSON('http://whateverorigin.org/get?url=' +
     encodeURIComponent('https://32blanche.lecointreparis.com/LP') + '&callback=?',
     function (data) {
         var elements = $(data.contents);
-        var menu = $('.pos20', elements)[0];
+        var menu = $('.pos18', elements)[0];
         $("#viewer p").html(menu)
         $("#viewer img").remove();
 });
